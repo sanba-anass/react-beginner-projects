@@ -1,0 +1,10 @@
+.balance-title{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.balance-price{
+    font-weight: 400;
+    font-size: 1.55rem;
+
+}

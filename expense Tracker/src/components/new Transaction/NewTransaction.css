@@ -1,0 +1,36 @@
+.form {
+	display: flex;
+	flex-direction: column;
+}
+.form label {
+	font-size: 1rem;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+}
+.form input {
+	margin-bottom: 1rem;
+	border: 1px solid #eee;
+	padding: 0.5rem;
+    font-size: 1rem;
+	border-radius: 0.25rem;
+
+}
+.form input:focus {
+	outline: 1px solid rgb(128, 86, 226);
+}
+.form input::placeholder{
+    color: rgb(189, 189, 189);
+}
+.form button {
+	background-color: rgb(128, 86, 226);
+	border: none;
+	color: white;
+	font-weight: 600;
+	padding: 0.75rem;
+	cursor: pointer;
+	border-radius: 0.25rem;
+    margin-top: 1rem;
+}
+.form button:hover {
+	background-color: rgb(153, 109, 255);
+}

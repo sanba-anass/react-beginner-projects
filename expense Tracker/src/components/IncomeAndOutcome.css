@@ -1,0 +1,29 @@
+.balance-wrapper {
+	display: flex;
+	justify-content: center;
+	padding: 1.5rem;
+	gap: 1rem;
+	margin-block: 1.5rem;
+	align-items: center;
+}
+.line {
+	height: 50px;
+	width: 1px;
+	background-color: rgb(236, 236, 236);
+    margin-inline: 1rem;
+}
+.balance-wrapper .income .text,
+.balance-wrapper .outcome .text {
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+}
+.balance-wrapper .income .income-price,
+.balance-wrapper .outcome .outcome-price {
+	font-size: 1.25rem;
+}
+.balance-wrapper .outcome .outcome-price {
+	color: rgb(230, 79, 59);
+}
+.balance-wrapper .income .income-price {
+	color: rgb(64, 218, 64);
+}
