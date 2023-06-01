@@ -1,0 +1,22 @@
+form {
+	display: flex;
+	flex-direction: column;
+}
+form input {
+	padding: 1rem;
+	font-size: 1rem;
+	border-radius: 0.25rem;
+	border: none;
+	box-shadow: 1px 4px 0.85rem -5px rgba(0, 0, 0, 0.062);
+}
+@media (min-width: 45rem) {
+	form input {
+		width: 25rem;
+	}
+}
+form input:focus {
+	outline: 1px solid rgb(100, 100, 250);
+}
+form input::placeholder {
+	color: rgb(156, 156, 156);
+}

@@ -1,0 +1,8 @@
+select {
+	padding: 1rem;
+	width: 15rem;
+	font-size: 1rem;
+	border-radius: 0.25rem;
+	border: none;
+	box-shadow: 1px 4px 0.85rem -5px rgba(0, 0, 0, 0.062);
+}

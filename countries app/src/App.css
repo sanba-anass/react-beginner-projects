@@ -1,0 +1,26 @@
+.app-wrapper {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+@media (max-width: 45rem) {
+	.app-wrapper {
+		flex-direction: column;
+	}
+}
+.wrapper {
+	max-width: 1320px;
+	padding-inline: 1.25rem;
+	margin: 0 auto;
+}
+@media (min-width: 25rem) {
+	.wrapper {
+		padding-inline: 1rem;
+	}
+}
+@media (min-width: 20rem) {
+	.wrapper {
+		padding-inline: 0.5rem;
+	}
+}

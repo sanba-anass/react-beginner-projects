@@ -1,0 +1,90 @@
+.country-image {
+	width: 50%;
+	min-width: 400px;
+}
+@media (max-width: 30rem) {
+	.country-image {
+		width: 80%;
+		min-width: auto;
+	}
+}
+.flex {
+	display: flex;
+	margin-bottom: 2rem;
+	gap: 3rem;
+	align-items: center;
+	animation: fadeIn 1.5s;
+}
+.borders {
+	animation: fadeIn 1.5s;
+}
+@media (max-width: 61rem) {
+	.flex {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+.dark-text {
+	color: white;
+}
+@media (max-width: 61rem) {
+	.container {
+		padding: 0;
+	}
+}
+
+.container .btn {
+	padding: 0.75rem 3rem;
+	margin-bottom: 3rem;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: 600;
+	border-radius: 0.5rem;
+	border: 1px solid black;
+	display: inline-block;
+	color: inherit;
+	animation: fadeIn 1.5s;
+}
+@media (max-width: 61rem) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+.country-name {
+	font-size: 2rem;
+	margin-bottom: 1.5rem;
+}
+.flex div span {
+	font-weight: 600;
+}
+.infos div {
+	margin-bottom: 0.75rem;
+}
+ul {
+	list-style: none;
+}
+.borders span {
+	font-weight: 600;
+	padding-left: 1rem;
+}
+ul .link {
+	display: inline-block;
+	margin: 1rem;
+	padding: 0.5rem 2rem;
+	font-weight: 500;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.068);
+	cursor: pointer;
+	text-decoration: none;
+	border-radius: 0.5rem;
+}
+.dark-btn {
+	color: white;
+	border-color: white !important;
+}
