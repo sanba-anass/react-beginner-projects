@@ -1,0 +1,17 @@
+.recpies {
+	margin: 0 auto;
+	text-align: center;
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+	margin-block: 2rem;
+}
+h1 {
+	margin-block: 2rem;
+	text-align: center;
+}
+
+.text-center {
+	text-align: center;
+}

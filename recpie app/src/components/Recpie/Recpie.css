@@ -1,0 +1,27 @@
+.recpie {
+	border: 1px solid rgb(29, 29, 29);
+	width: 70%;
+    margin:  0 auto;
+    padding: 0.75rem;
+}
+
+.recpie .recpie-img {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+.recpie h2 {
+	margin-bottom: 1rem;
+}
+.recpie button {
+	margin: 0 auto;
+	padding: 0.25rem 1rem;
+	margin-bottom: 1rem;
+	display: block;
+}
+.buttons-wrapper{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin:  0 auto;
+
+}
