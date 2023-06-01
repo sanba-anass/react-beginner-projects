@@ -1,0 +1,68 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.logo {
+	height: 6em;
+	padding: 1.5em;
+	will-change: filter;
+	transition: filter 300ms;
+}
+.logo:hover {
+	filter: drop-shadow(0 0 2em #646cffaa);
+}
+newAnswers .logo.react:hover {
+	filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	a:nth-of-type(2) .logo {
+		animation: logo-spin infinite 20s linear;
+	}
+}
+
+.card {
+	padding: 2em;
+}
+
+.read-the-docs {
+	color: #888;
+}
+.questions-container {
+	width: 500px;
+	height: 500px;
+	background-color: rgb(12, 12, 12);
+	border-radius: 1rem;
+	padding: 1rem;
+}
+.question {
+	font-size: 1.5rem;
+	margin-bottom: 4rem;
+}
+.correct {
+	border: 1px solid rgb(44, 116, 44);
+	background-color: rgb(61, 168, 88);
+}
+.wrong {
+	border: 1px solid rgb(241, 79, 79);
+	background-color: rgb(209, 63, 63);
+}
+.finished {
+	line-height: 350px;
+	user-select: none;
+}
+.disabled-questions li {
+	cursor: not-allowed;
+}
